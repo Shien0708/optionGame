@@ -13,6 +13,10 @@
 		64C97CB127C873D600BA50EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C97CAF27C873D600BA50EA /* Main.storyboard */; };
 		64C97CB327C873D700BA50EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C97CB227C873D700BA50EA /* Assets.xcassets */; };
 		64C97CB627C873D700BA50EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C97CB427C873D700BA50EA /* LaunchScreen.storyboard */; };
+		64C97CBE27C876BB00BA50EA /* ChangePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C97CBD27C876BB00BA50EA /* ChangePersonViewController.swift */; };
+		64C97CC027C880F500BA50EA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C97CBF27C880F500BA50EA /* GameViewController.swift */; };
+		64C97CC227C881B300BA50EA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C97CC127C881B300BA50EA /* Question.swift */; };
+		64C97CC427C8A44400BA50EA /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C97CC327C8A44400BA50EA /* RankViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		64C97CB227C873D700BA50EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C97CB527C873D700BA50EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64C97CB727C873D700BA50EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C97CBD27C876BB00BA50EA /* ChangePersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePersonViewController.swift; sourceTree = "<group>"; };
+		64C97CBF27C880F500BA50EA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		64C97CC127C881B300BA50EA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		64C97CC327C8A44400BA50EA /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +64,15 @@
 		64C97CA827C873D600BA50EA /* optionGame */ = {
 			isa = PBXGroup;
 			children = (
+				64C97CC327C8A44400BA50EA /* RankViewController.swift */,
 				64C97CA927C873D600BA50EA /* AppDelegate.swift */,
 				64C97CAB27C873D600BA50EA /* SceneDelegate.swift */,
 				64C97CAD27C873D600BA50EA /* ViewController.swift */,
 				64C97CAF27C873D600BA50EA /* Main.storyboard */,
+				64C97CC127C881B300BA50EA /* Question.swift */,
+				64C97CBF27C880F500BA50EA /* GameViewController.swift */,
 				64C97CB227C873D700BA50EA /* Assets.xcassets */,
+				64C97CBD27C876BB00BA50EA /* ChangePersonViewController.swift */,
 				64C97CB427C873D700BA50EA /* LaunchScreen.storyboard */,
 				64C97CB727C873D700BA50EA /* Info.plist */,
 			);
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C97CC027C880F500BA50EA /* GameViewController.swift in Sources */,
 				64C97CAE27C873D600BA50EA /* ViewController.swift in Sources */,
+				64C97CC427C8A44400BA50EA /* RankViewController.swift in Sources */,
 				64C97CAA27C873D600BA50EA /* AppDelegate.swift in Sources */,
+				64C97CC227C881B300BA50EA /* Question.swift in Sources */,
+				64C97CBE27C876BB00BA50EA /* ChangePersonViewController.swift in Sources */,
 				64C97CAC27C873D600BA50EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
